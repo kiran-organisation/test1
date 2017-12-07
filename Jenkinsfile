@@ -7,7 +7,7 @@ properties([
       threshold: 'SUCCESS',
       upstreamProjects: 'https://github.com/kiran-organisation/test2.git'
        )
-                     ])
+                     ])])
 
 pipeline {
     agent any 
